@@ -48,7 +48,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #1B283F;
+  color: #FEA724;
   text-transform: uppercase;
 }
 .section-header p {
@@ -120,7 +120,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #1B283F;
+  background: #FEA724;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -132,7 +132,7 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: #1B283F;
   color: #fff;
 }
 .back-to-top.active {
@@ -214,18 +214,18 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #1B283F;
+  color: #FEA724;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #1B283F;
+  background: #FEA724;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #1B283F;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #FEA724;
 }
 .navbar .dropdown ul {
   display: block;
@@ -398,8 +398,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #1B283F;
+  color: #1B283F;
+  background: #FEA724;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
@@ -413,6 +413,12 @@ section {
   font-size: 18px;
   transition: 0.3s;
 }
+
+.hero .btn-get-started:hover {
+  color: white;
+}
+
+
 .hero .btn-get-started:hover i {
   transform: translateX(5px);
 }
@@ -459,13 +465,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #FBF7F4;
   padding: 40px;
 }
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #1B283F;
+  color: #FEA724;
   text-transform: uppercase;
 }
 .about h2 {
@@ -482,8 +488,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #1B283F;
+  color: #1B283F;
+  background: #FEA724;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
@@ -1035,7 +1041,7 @@ section {
   line-height: 0;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #FEA724;
 }
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
@@ -1885,7 +1891,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #FBF7F4;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
