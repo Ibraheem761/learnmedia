@@ -94,8 +94,8 @@
                 <i class="bi bi-arrow-right"></i>
               </a>
 
-              <a href="/creators.html" onmouseover="this.style.color='#FEA724'" onmouseout="this.style.color=''"
-                style="margin-left: 1rem; background-color: transparent; color: #1B283F;;"
+              <a id="btnnhover" href="/creators.html"
+                style="margin-left: 1rem; background-color: transparent; color: #1B283F;"
                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>For Creators</span>
                 <i class="bi bi-arrow-right"></i>
@@ -110,6 +110,18 @@
     </div>
 
   </section><!-- End Hero -->
+
+
+
+  <script>
+    element = document.getElementById('btnnhover');
+    element.addEventListener("mouseover", function () {
+      this.style.color = "#FEA724";
+    });
+    element.addEventListener("mouseout", function () {
+      this.style.color = "#1B283F";
+    });
+  </script>
 
 
 
@@ -437,15 +449,12 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img
-                src="assets/img/headshots/ravit.jpg"
-                class="img-fluid" alt="">
+              <img src="assets/img/headshots/ravit.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Ravit Jain</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/headshots/ravit.jpg"
-                    data-gallery="portfolioGallery" class="portfokio-lightbox" title="Ravit Jain"><i
-                      class="bi bi-plus"></i></a>
+                  <a href="assets/img/headshots/ravit.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"
+                    title="Ravit Jain"><i class="bi bi-plus"></i></a>
                   <a target="_blank" href="https://www.linkedin.com/in/ravitjain/" title="More Details"><i
                       class="bi bi-link"></i></a>
                 </div>
