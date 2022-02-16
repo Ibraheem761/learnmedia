@@ -2040,3 +2040,23 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+.portfolio .col {
+  flex: 20%;
+  margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+.portfolio .col {
+  flex: 33%;
+}
+}
+
+@media only screen and (max-width: 600px ) {
+  .portfolio .col {
+    flex: 50%;
+  }
+  }
